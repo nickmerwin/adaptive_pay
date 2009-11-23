@@ -26,7 +26,7 @@ Configuration
 This plugin expects a file named config/adaptive_pay.yml to contain the configuration
 
 development:
-  instance: "sandbox"
+  environment: "sandbox"
   username: "my_development_username"
   password: "my_development_password"
   signature: "my_development_signature"
@@ -36,7 +36,7 @@ test:
   retain_requests_for_test: true
 
 production:
-  instance: "production"
+  environment: "production"
   username: "my_production_username"
   password: "my_production_password"
   signature: "my_production_signature"
